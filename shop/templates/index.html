@@ -183,7 +183,7 @@
                   <div class="swiper-wrapper">
                     {% for x in featuredProduct %}
                         <article class="featured__card swiper-slide">
-                            <img src="{% static 'x.image' %}" alt="image" class="featured__img">
+                            <img src="{{ img.image.url }}" alt="image" class="featured__img">
 
                             <h2 class="featured__title">{{ x.title }}</h2>
                             <div class="featured__prices">
